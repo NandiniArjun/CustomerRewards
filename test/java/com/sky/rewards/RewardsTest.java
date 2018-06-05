@@ -16,7 +16,7 @@ import com.sky.rewards.RewardsServiceImpl;
 public class RewardsTest {
 
     private RewardsService rewardsService = new RewardsServiceImpl(new EligibilityServiceStub());
-
+//Test case 1: Get the rewards list based on subscription
     @Test
     public void testReward() {
         List<Reward> rewards = rewardsService.getRewards("100001", Arrays.asList(Channel.SPORTS));
