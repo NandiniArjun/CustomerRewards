@@ -12,7 +12,7 @@ import com.sky.stubs.EligibilityServiceStub;
 public class EligibilityServiceTest {
 
     private EligibilityService eligibilityService = new EligibilityServiceStub();
-
+//Test case 1: Test customer eligibility
     @Test
     public void testEligibility() {
         try {
@@ -21,7 +21,7 @@ public class EligibilityServiceTest {
             e.printStackTrace();
         }
     }
-
+//Test case 2: Invalid eligibility
     @Test
     public void testEligibilityInvalid() {
         try {
